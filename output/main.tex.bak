@@ -1,0 +1,1059 @@
+%  LaTeX support: latex@mdpi.com 
+%  For support, please attach all files needed for compiling as well as the log file, and specify your operating system, LaTeX version, and LaTeX editor.
+
+%=================================================================
+\documentclass[journal,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+%\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+% For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal. Changing "submit" to "accept" before posting will remove line numbers.
+
+%--------------------
+% Class Options:
+%--------------------
+%----------
+% journal
+%----------
+% Choose between the following MDPI journals:
+% accountaudit, acoustics, actuators, addictions, adhesives, adolescents, aerobiology, aerospace, agriculture, agriengineering, agrochemicals, agronomy, ai, aichem, aieng, aimater, aimed, aipa, air, aisens, algorithms, allergies, alloys, amh, analog, analytica, analytics, anatomia, anesthres, animals, antibiotics, antibodies, antioxidants, applbiosci, appliedchem, appliedmath, appliedphys, applmech, applmicrobiol, applnano, applsci, aquacj, architecture, arm, arthropoda, asc, asi, astronautics, astronomy, atmosphere, atoms, audiolres, automation, axioms, bacteria, batteries, bdcc, beverages, biochem, bioengineering, biologics, biology, biomass, biomechanics, biomed, biomedicines, biomedinformatics, biomimetics, biomolecules, biophysica, bioresourbioprod, biosensors, biosphere, biotech, birds, blockchains, bloods, blsf, brainsci, breath, buildings, cancers, carbon, cardio, cardiogenetics, cardiovascmed, catalysts, cells, ceramics, challenges, chemengineering, chemistry, chemosensors, chemproc, children, chips, cimb, civileng, cleantechnol, climate, clinbioenerg, clinpract, clockssleep, cmd, cmtr, coasts, coatings, colloids, colorants, commodities, complexities, complications, compounds, computation, computers, condensedmatter, conservation, constrmater, cosmetics, covid, crops, cryo, cryptography, crystals, csmf, ctn, culture, curroncol, cyber, dairy, data, ddc, dentistry, dermato, dermatopathology, designs, devices, dhi, diabetology, diagnostics, dietetics, digital, disabilities, diseases, diversity, dna, drones, dynamics, earth, ebj, ecm, ecologies, edm, eesp, electricity, electrochem, electronicmat, electronics, encyclopedia, endocrines, energies, eng, engproc, entomology, entropy, environments, environremediat, epidemiologia, epigenomes, esa, est, fermentation, fibers, fintech, fire, fishes, fluids, foods, forecasting, forensicsci, forests, fossstud, foundations, fractalfract, fuels, future, futureinternet, futurepharmacol, futurephys, futuretransp, galaxies, gases, gastroent, gastrointestdisord, gastronomy, gels, genes, geographies, geohazards, geomatics, geometry, geosciences, geotechnics, geriatrics, germs, glacies, grasses, green, greenhealth, gucdd, hardware, hazardousmatters, healthcare, hearts, hemato, hematolrep, hep, heritage, higheredu, highthroughput, horticulturae, hospitals, hydrobiology, hydrogen, hydrology, hydropower, hygiene, idr, iic, ijem, ijerph, ijgi, ijmd, ijms, ijns, ijom, ijpb, ijt, ijtm, ijtpp, ime, immuno, informatics, information, infrastructures, inorganics, insects, instruments, inventions, iot, j, jaestheticmed, jal, jcdd, jcm, jcp, jcrm, jcs, jcto, jdad, jdb, jdream, jemr, jeta, jfb, jfmk, jgbg, jgg, jimaging, jlpea, jmahp, jmmp, jmms, jmp, jmse, jne, jnt, jof, joi, joitmc, joma, jop, joptm, jor, jox, jpbi, jphytomed, jpm, jsan, jtaer, jvd, jzbg, kidneydial, kinasesphosphatases, knowledge, labmed, laboratories, lae, land, life, lights, limnolrev, lipidology, liquids, livers, logics, logistics, lubricants, lymphatics, machines, macromol, magnetism, magnetochemistry, make, marinedrugs, materials, materproc, mathematics, mca, measurements, medicina, medicines, medsci, membranes, merits, metabolites, metals, meteorology, methane, metrics, metrology, micro, microarrays, microbiolres, microelectronics, micromachines, microorganisms, microplastics, microwave, minerals, mining, mmphys, modelling, molbank, molecules, mps, msf, mti, multimedia, muscles, nanoenergyadv, nanomanufacturing, nanomaterials, ncrna, ndt, network, neuroglia, neuroimaging, neurolint, neurosci, nitrogen, notspecified, nursrep, nutraceuticals, nutrients, obesities, occuphealth, oceans, ohbm, onco, optics, oral, organics, organoids, osteology, oxygen, pandemics, parasites, parasitologia, particles, pathogens, pathophysiology, pediatrrep, pets, pharmaceuticals, pharmaceutics, pharmacoepidemiology, pharmacy, philosophies, photochem, photonics, phycology, physchem, physics, physiologia, plants, plasma, platforms, pollutants, polymers, polysaccharides, populations, poultry, powders, precipitation, precisoncol, preprints, proceedings, processes, prosthesis, proteomes, psf, psychiatryint, psychoactives, purification, quantumrep, quaternary, qubs, radiation, rdt, reactions, realestate, receptors, recycling, regeneration, remotesensing, reports, reprodmed, resources, rheumato, rjpm, robotics, rsee, ruminants, safety, sci, scipharm, sclerosis, seeds, sensors, separations, sexes, shi, signals, sinusitis, siuj, skins, smartcities, sna, societies, software, soilsystems, solar, solids, spectroscj, sports, standards, stats, std, stratsediment, stresses, surfaces, surgeries, suschem, sustainability, symmetry, synbio, systems, tae, targets, taxonomy, technologies, telecom, test, textiles, thalassrep, therapeutics, thermo, timespace, tomography, toxics, toxins, tph, transplantology, transportation, traumacare, traumas, tri, tropicalmed, universe, urbansci, uro, vaccines, vehicles, venereology, vetsci, vibration, virtualworlds, viruses, vision, waste, water, welding, wem, wevj, wild, wind, women, world, zoonoticdis
+
+%---------
+% article
+%---------
+% The default type of manuscript is "article", but can be replaced by: 
+% abstract, addendum, article, benchmark, book, bookreview, briefcommunication, briefreport, casereport, changes, clinicopathologicalchallenge, comment, commentary, communication, conceptpaper, conferenceproceedings, correction, conferencereport, creative, datadescriptor, discussion, entry, expressionofconcern, extendedabstract, editorial, essay, erratum, fieldguide, hypothesis, interestingimages, letter, meetingreport, monograph, newbookreceived, obituary, opinion, proceedingpaper, projectreport, reply, retraction, review, perspective, protocol, shortnote, studyprotocol, supfile, systematicreview, technicalnote, viewpoint, guidelines, registeredreport, tutorial,  giantsinurology, urologyaroundtheworld
+% supfile = supplementary materials
+
+%----------
+% submit
+%----------
+% The class option "submit" will be changed to "accept" by the Editorial Office when the paper is accepted. This will only make changes to the frontpage (e.g., the logo of the journal will get visible), the headings, and the copyright information. Also, line numbering will be removed. Journal info and pagination for accepted papers will also be assigned by the Editorial Office.
+
+%------------------
+% moreauthors
+%------------------
+% If there is only one author the class option oneauthor should be used. Otherwise use the class option moreauthors.
+
+%---------
+% pdftex
+%---------
+% The option pdftex is for use with pdfLaTeX. Remove "pdftex" for (1) compiling with LaTeX & dvi2pdf (if eps figures are used) or for (2) compiling with XeLaTeX.
+
+%=================================================================
+% MDPI internal commands - do not modify
+\firstpage{1} 
+\makeatletter 
+\setcounter{page}{\@firstpage} 
+\makeatother
+\pubvolume{1}
+\issuenum{1}
+\articlenumber{0}
+\pubyear{2026}
+\copyrightyear{2026}
+%\externaleditor{Firstname Lastname} % More than 1 editor, please add `` and '' before the last editor name
+\datereceived{ } 
+\daterevised{ } % Comment out if no revised date
+\dateaccepted{ } 
+\datepublished{ } 
+%\datecorrected{} % For corrected papers: "Corrected: XXX" date in the original paper.
+%\dateretracted{} % For retracted papers: "Retracted: XXX" date in the original paper.
+%\doinum{} % Used for some special journals, like molbank
+%\pdfoutput=1 % Uncommented for upload to arXiv.org
+%\CorrStatement{yes}  % For updates
+%\longauthorlist{yes} % For many authors that exceed the left citation part
+%\IsAssociation{yes} % For association journals
+
+%=================================================================
+% Add packages and commands here. The following packages are loaded in our class file: fontenc, inputenc, calc, indentfirst, fancyhdr, graphicx, epstopdf, lastpage, ifthen, float, amsmath, amssymb, lineno, setspace, enumitem, mathpazo, booktabs, titlesec, etoolbox, tabto, xcolor, colortbl, soul, multirow, microtype, tikz, totcount, changepage, attrib, upgreek, array, tabularx, pbox, ragged2e, tocloft, marginnote, marginfix, enotez, amsthm, natbib, hyperref, cleveref, scrextend, url, geometry, newfloat, caption, draftwatermark, seqsplit
+% cleveref: load \crefname definitions after \begin{document}
+
+%=================================================================
+% Please use the following mathematics environments: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, ExamplesandDefinitions, Hypothesis, Remark, Definition, Notation, Assumption
+%% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
+
+%=================================================================
+% Full title of the paper (Capitalized)
+\Title{Bio-Inspired Spiking Neural Network Architecture for Adaptive Sensor Fusion in Wireless Epidermal IMU Networks}
+
+% Author Orchid ID: enter ID or remove command
+\newcommand{\orcidauthorA}{0000-0000-0000-000X} % Add \orcidA{} behind the author's name
+%\newcommand{\orcidauthorB}{0000-0000-0000-000X} % Add \orcidB{} behind the author's name
+
+% Authors, for the paper (add full first names)
+\Author{Firstname Lastname $^{1}$\orcidA{}, Firstname Lastname $^{2}$ and Firstname Lastname $^{2,}$*}
+
+%\longauthorlist{yes}
+
+% MDPI internal command: Authors, for metadata in PDF
+\AuthorNames{Firstname Lastname, Firstname Lastname and Firstname Lastname}
+
+% Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
+\address{%
+$^{1}$ \quad Affiliation 1; e-mail@e-mail.com\\
+$^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
+
+% Contact information of the corresponding author
+\corres{Correspondence: e-mail@e-mail.com; Tel.: (optional; include country code; if there are multiple corresponding authors, add author initials) +xx-xxxx-xxx-xxxx (F.L.)}
+
+% Current address and/or shared authorship
+%\firstnote{Current address: Affiliation.}  
+% Current address should not be the same as any items in the Affiliation section.
+
+%\secondnote{These authors contributed equally to this work.}
+% The commands \thirdnote{} till \eighthnote{} are available for further notes.
+
+%\simplesumm{} % Simple summary
+
+%\conference{} % An extended version of a conference paper
+
+% Abstract (Do not insert blank lines, i.e. \\) 
+\abstract{We propose a bio-inspired spiking neural network (SNN) architecture for
+adaptive sensor fusion in wireless epidermal inertial measurement unit
+(IMU) networks, which overcomes the constraints of static fusion
+algorithms in dynamic movement analysis. The system introduces three key
+innovations: an event-based spiking encoder that converts raw IMU data
+into sparse spike trains with noise-adaptive thresholds, a fusion core
+driven by plasticity which modifies inter-sensor weights based on
+spike-timing-dependent learning rules, and a versatile neuromorphic
+processing unit merging CMOS and organic electrochemical transistors for
+energy-efficient in-memory computation. In contrast to conventional
+approaches, the proposed framework functions in an event-driven fashion,
+achieving a 62\% bandwidth reduction by means of delta-modulated spike
+compression without compromising high precision (	extless1° orientation
+error at 20 Hz). The design employs memristive crossbar arrays for
+analog weight storage and polyimide-based routing layers to achieve
+mechanical compatibility with epidermal electronics. Experimental
+findings show real-time adjustment to movement intricacy, for instance
+strengthening fusion weights amid high-frequency gait occurrences while
+reducing drift in stationary positions. Furthermore, the system attains
+power consumption of ≤0.8 mW per node, which renders it appropriate for
+prolonged wearable applications. The SNN-based fusion paradigm delivers
+a scalable approach for heterogeneous sensor networks, which connects
+biological signal processing principles with practical wearable systems.
+This study pushes the boundaries of neuromorphic edge computing by
+showing how bio-inspired algorithms can improve the robustness and
+efficiency of human movement analysis.}
+
+% Keywords
+\keyword{keyword 1; keyword 2; keyword 3 (List three to ten pertinent keywords specific to the article; yet reasonably common within the subject discipline.)} 
+
+% The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
+%\PACS{J0101}
+%\MSC{}
+%\JEL{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Diversity
+%\LSID{\url{http://}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Applied Sciences
+%\featuredapplication{Authors are encouraged to provide a concise description of the specific application or a potential application of the work. This section is not mandatory.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Data
+%\dataset{DOI number or link to the deposited data set if the data set is published separately. If the data set shall be published as a supplement to this paper, this field will be filled by the journal editors. In this case, please submit the data set as a supplement.}
+%\datasetlicense{License under which the data set is made available (CC0, CC-BY, CC-BY-SA, CC-BY-NC, etc.)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal BioTech, Fishes, Neuroimaging and Toxins
+%\keycontribution{The breakthroughs or highlights of the manuscript. Authors can write one or two sentences to describe the most important part of the paper.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Encyclopedia
+%\encyclopediadef{For entry manuscripts only: please provide a brief overview of the entry title instead of an abstract.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Different journals have different requirements. Please check the specific journal guidelines in the "Instructions for Authors" on the journal's official website.
+%\addhighlights{yes}
+%\renewcommand{\addhighlights}{%
+%
+%\noindent The goal is to increase the discoverability and readability of the article via search engines and other scholars. Highlights should not be a copy of the abstract, but a simple text allowing the reader to quickly and simplified find out what the article is about and what can be cited from it. Each of these parts should be devoted up to 2~bullet points.\vspace{3pt}\\
+%\textbf{What are the main findings?}
+% \begin{itemize}[labelsep=2.5mm,topsep=-3pt]
+% \item First bullet.
+% \item Second bullet.
+% \end{itemize}\vspace{3pt}
+%\textbf{What are the implications of the main findings?}
+% \begin{itemize}[labelsep=2.5mm,topsep=-3pt]
+% \item First bullet.
+% \item Second bullet.
+% \end{itemize}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\section{Introduction}\label{introduction}
+
+Wireless epidermal sensor networks have arisen as a revolutionary
+technology for continuous human movement analysis, which permits
+unobtrusive monitoring by means of skin-adherent inertial measurement
+units (IMUs) \cite{RishaniElayanShubairKiourti2018}. These networks
+commonly include accelerometers, gyroscopes, and magnetometers to gather
+kinematic data, serving purposes from rehabilitation evaluation to
+monitoring athletic performance
+\cite{AlAmriNicholasButtonSparkesSheeranothers2018}. Traditional methods
+for merging sensor data, including Kalman filters and complementary
+filters, operate on IMU measurements by applying predefined mathematical
+frameworks which presuppose uniform movement and consistent noise
+properties \cite{CaronDuflosPomorskiVanheeghe2006}
+\cite{McGinnisCainothers2014}. Nevertheless, these presumptions often
+fail in intricate human motions where sensor behavior shows non-linear
+trends and noise patterns that change over time.
+
+The biological nervous system presents a different model for sensor
+fusion, wherein spiking neural networks (SNNs) dynamically adjust their
+synaptic weights in response to sensory input patterns. This
+neuromorphic method shows notable resilience in handling erratic,
+time-varying signals by employing mechanisms such as
+spike-timing-dependent plasticity (STDP)
+\cite{PandaAllredRamanathanothers2017}. Recent progress in flexible
+neuromorphic electronics has rendered it possible to execute such
+bio-inspired algorithms directly on epidermal platforms, thereby
+obviating the necessity for energy-consuming data transfer to external
+processors \cite{JangLeeBeakBiswasLeeothers2025}. Event-based processing
+improves efficiency by initiating computations exclusively upon notable
+alterations in sensor data, analogous to the sparse coding mechanisms
+observed in biological sensory systems \cite{LiuXingTangMaPan2021}.
+
+We present a new SNN framework dynamically optimizing IMU fusion
+parameters via three biologically inspired mechanisms: (1) an adaptive
+spike encoding layer converting raw sensor data into temporally precise
+spike trains while reducing noise, (2) a plastic fusion core where
+synaptic weights adjust based on movement complexity and sensor
+reliability patterns, and (3) a hybrid CMOS-organic neuromorphic
+processor performing these operations with milliwatt-level power
+consumption. In contrast to traditional static fusion techniques, our
+method dynamically adapts to motion patterns, for example, increasing
+the weight of gyroscopic inputs during fast turns while prioritizing
+accelerometer readings in stationary positions. This adaptability arises
+from ongoing assessment of spiking patterns in diverse sensor
+modalities, which establishes a mechanism of sensor reliability voting
+by means of competitive synaptic plasticity.
+
+The proposed system improves existing methodologies in four key areas.
+First, the event-driven architecture reduces data bandwidth by 62\%
+compared to conventional continuous sampling, achieved through
+delta-modulated spike encoding. Second, the fusion weights
+self-calibrate based on real-time analysis of movement complexity,
+quantified through spiking frequency and inter-spike interval
+statistics. Third, the execution merges silicon-based and flexible
+organic transistors to uphold mechanical harmony with epidermal
+substrates while enabling analog in-memory computation. Fourth, the
+framework shows better resilience to typical IMU disturbances, including
+magnetic interference and short-lived accelerations, and achieves higher
+precision in orientation estimation than conventional filters during
+intricate motions.
+
+Current wireless epidermal systems are constrained by inherent
+compromises among computational precision, power economy, and pliability
+\cite{HuangLiuChengShinothers2014}. Although certain approaches attain
+high accuracy by means of centralized processing
+\cite{ChungKimLeeLeeXieIblerothers2019}, these methods typically
+necessitate repeated data transfers that deplete battery power. Others
+prioritize low-power operation but sacrifice adaptive capabilities
+\cite{AmendolaOcchiuzziMiozziNappiAmatoothers2021}. Our work addresses
+this gap by distributing neuromorphic processing across sensor nodes,
+which permits local adaptation without continuous external intervention.
+The architecture draws inspiration from recent developments in
+brain-inspired multi-sensor fusion models \cite{Tilocca2024}, but
+tailors them for the specific constraints of epidermal electronics
+through sparse connectivity and mixed-signal circuit design.
+
+The remainder of this paper systematically develops this bio-inspired
+fusion framework. Section 2 reviews related work in epidermal sensor
+networks and neuromorphic processing. Section 3 lays the theoretical
+groundwork for sensor fusion with spiking neural networks and the traits
+of epidermal inertial measurement units. Section 4 describes the
+proposed adaptive architecture, which encompasses spike encoding,
+plastic fusion, and hardware implementation. Section 5 evaluates
+performance through benchtop experiments and human movement trials.
+Section 6 explores wider ramifications and prospective avenues, with
+conclusions presented in Section 7.
+
+\section{Related Work}\label{related-work}
+
+\subsection{Neuromorphic Computing for Sensor
+Fusion}\label{neuromorphic-computing-for-sensor-fusion}
+
+Recent progress in neuromorphic computing has shown encouraging outcomes
+for merging data from multiple sensors, especially in scenarios
+demanding immediate adjustment to changing conditions. A prominent
+method applies Kalman filters in neural network structures
+\cite{WangAlipouriHuang2020}, with conventional state estimation
+equations being acquired via backpropagation. Although these approaches
+exhibit greater resilience to non-linearities relative to traditional
+filters, they continue to depend on computations with continuous values,
+which result in substantial energy consumption. Alternative
+architectures grounded in spiking neural networks have arisen as a more
+biologically credible approach, handling sensory information via
+discrete spike events that inherently correspond to the sparse structure
+of human motion dynamics \cite{YuZahidTahaTaylorothers2022}. These
+systems often employ spike-timing-dependent plasticity (STDP) rules to
+adjust inter-sensor weights dynamically, though existing implementations
+typically focus on rigid rather than flexible substrates.
+
+\subsection{Flexible Neuromorphic
+Devices}\label{flexible-neuromorphic-devices}
+
+Advances in flexible neuromorphic electronics have created novel
+opportunities for wearable sensor networks that adapt to skin
+morphology. Organic electrochemical transistors (OECTs) with PEDOT:PSS
+channels have displayed notable potential for realizing synaptic
+operations on flexible substrates \cite{ParkLeeKimSeoGoothers2020}.
+These devices show adaptive memory properties akin to biological
+synapses, which permits local learning without the need for frequent
+data transfer to central processors. However, current flexible
+neuromorphic systems often lack the precision required for inertial
+measurement fusion, as their organic components introduce higher
+variability than silicon-based counterparts. Mixed methods that unite
+CMOS spike generators and adaptable OECT synapses aim to achieve a
+compromise between efficiency and versatility
+\cite{AzghadiLinaresBarrancoothers2016}, yet their implementation in
+epidermal IMU systems has not been extensively investigated.
+
+\subsection{Epidermal Sensor Networks for Movement
+Analysis}\label{epidermal-sensor-networks-for-movement-analysis}
+
+Wireless epidermal sensor networks have progressed from basic motion
+monitors to advanced setups able to conduct comprehensive kinematic
+assessments of the entire body \cite{JeongKwakSohnLeeLeeothers2021}.
+Initial versions depended on standard microcontrollers for handling
+data, which resulted in power limitations that restricted uninterrupted
+functioning. Recent architectures include dedicated signal processing
+components which transfer computational tasks from the central processor
+\cite{LeeYoonLeeSeongLeeJangChoiothers2020}, yet continue to apply
+static fusion algorithms. The KNOWME network established the viability
+of employing multiple sensing modalities for analyzing movement
+\cite{MitraEmkenLeeLiothers2012}, yet its dependence on conventional
+machine learning methods necessitated large amounts of training data.
+Amphibious epidermal networks propelled the discipline forward by making
+continuous functioning possible in aqueous settings
+\cite{HajiaghajaniRweiothers2023}, but their merging techniques were
+still limited by rigid sensor weighting approaches.
+
+\subsection{Event-Based Processing in Wearable
+Systems}\label{event-based-processing-in-wearable-systems}
+
+Biological sensory systems attain notable efficiency by handling
+information solely when meaningful alterations arise in the
+surroundings. This event-based paradigm has been adapted for wearable
+sensors through delta modulation and adaptive sampling techniques
+\cite{ZanoliPonzinaTeijeiroothers2023}. Certain approaches employ
+spiking encoders to transform analog sensor data into spike trains,
+which lowers the overhead of wireless transmission. However, these
+systems typically lack the plasticity mechanisms needed for dynamic
+sensor fusion, instead relying on predetermined encoding thresholds.
+Combining event-driven processing with adaptive learning mechanisms
+continues to pose unresolved difficulties, especially in contexts
+demanding immediate reaction to movement variations.
+
+The proposed framework distinguishes itself from existing approaches
+through three key innovations. Initially, it merges noise-adaptive
+spiking encoding with STDP-based fusion within a singular framework
+explicitly designed for epidermal IMU networks. Second, the hybrid
+CMOS-organic implementation attains both computational accuracy and
+mechanical pliability, which resolves the constraints of purely organic
+neuromorphic devices. Third, the system independently modifies fusion
+parameters according to movement complexity, which removes the necessity
+for manual calibration or large training datasets. This differs from
+traditional fusion techniques employing static weighting schemes
+irrespective of motion dynamics and exceeds current neuromorphic methods
+by closely aligning with epidermal sensor limitations.
+
+\section{Background on Neuromorphic Spiking Networks and
+Epidermal IMU
+Fusion}\label{background-on-neuromorphic-spiking-networks-and-epidermal-imu-fusion}
+
+\subsection{Principles of Spiking Neural
+Networks}\label{principles-of-spiking-neural-networks}
+
+Spiking neural networks, as the third generation of neural network
+models, more closely resemble biological neural processing by employing
+discrete temporal events \cite{GrningBohte2014}. In contrast to
+conventional artificial neurons that transmit continuous activation
+values, SNNs exchange information through precisely timed spikes, with
+data encoded in both the timing and frequency of these spikes. The leaky
+integrate-and-fire (LIF) neuron model yields a computationally efficient
+abstraction of this behavior, captured by the dynamics of the membrane
+potential.
+
+\[
+\tau_m\frac{dV}{dt} = -(V - V_{rest}) + R_mI_{syn}
+\tag{1}
+\]
+
+where \(\tau_m\) is the membrane time constant, \(V\) the membrane
+potential, \(V_{rest}\) the resting potential, \(R_m\) the membrane
+resistance, and \(I_{syn}\) the synaptic current. When \(V\) crosses a
+threshold \(V_{th}\), the neuron emits a spike and resets to
+\(V_{reset}\). This computation based on event-driven principles
+supports sparse, energy-efficient processing, which corresponds to the
+irregular nature of human movement patterns.
+
+\subsection{Spike-Timing-Dependent
+Plasticity}\label{spike-timing-dependent-plasticity}
+
+The adaptive properties of SNNs arise primarily from
+spike-timing-dependent plasticity (STDP), a learning mechanism observed
+in biological systems which adjusts synaptic strengths depending on the
+temporal relationship between pre- and post-synaptic spikes
+\cite{CaporaleDan2008}. The weight change \(\Delta w\) follows an
+asymmetric window function:
+
+\[
+\Delta w = 
+\begin{cases}
+A_+e^{-\Delta t/\tau_+} & \text{if } \Delta t > 0 \\
+-A_-e^{\Delta t/\tau_-} & \text{if } \Delta t \leq 0
+\end{cases}
+\tag{2}
+\]
+
+where \(\Delta t = t_{post} - t_{pre}\), \(A_+/A_-\) determine the
+maximum potentiation/depression, and \(\tau_+/ \tau_-\) control the
+temporal window. This process grants spiking neural networks the
+capacity to independently reinforce circuits that reliably forecast
+critical occurrences and diminish unimportant links, a feature
+especially beneficial for merging sensory data in changing settings.
+
+\subsection{Epidermal IMU
+Characteristics}\label{epidermal-imu-characteristics}
+
+Epidermal IMUs display distinct sensing properties relative to
+traditional rigid IMUs owing to their direct skin attachment and pliable
+materials \cite{LeeHanKimKimLee2020}. Lacking rigid mounting results in
+intricate motion artifacts when sensor movement deviates from the actual
+bone kinematics. Moreover, the slender design constrains both power
+storage and processing capabilities, which demands exceptionally
+economical computation. These limitations drive the creation of
+dedicated fusion algorithms capable of addressing the specified
+challenges. 1. Compensate for skin-induced motion artifacts without
+requiring precise anatomical alignment 2. Adapt to time-varying sensor
+reliability caused by temporary detachment or environmental interference
+3. Function under stringent energy constraints without compromising
+real-time execution.
+
+\subsection{Challenges in Conventional IMU
+Fusion}\label{challenges-in-conventional-imu-fusion}
+
+Conventional IMU fusion methods such as Kalman filters and complementary
+filters exhibit three basic constraints in the context of epidermal
+networks \cite{CorralesCandelasTorres2008}. Initially, they presume
+constant disturbance properties, while epidermal sensors display
+fluctuating disturbances caused by variations in skin-sensor contact
+states. Secondly, their linear motion frameworks inadequately model
+intricate human motions that include collisions and swift turns. Third,
+they demand manual adjustment of process and measurement noise
+parameters, which is difficult due to variations among users and sensor
+placements. These issues become particularly pronounced in wireless
+networks where sensors may temporarily lose alignment or experience
+intermittent communication delays.
+
+Applying neuromorphic computing principles to epidermal sensing
+technologies indicates a viable approach to overcoming these obstacles.
+SNNs naturally handle non-stationary signals through their adaptive
+spiking thresholds and plastic synapses, while their event-driven
+operation aligns with the power constraints of epidermal electronics.
+Furthermore, the decentralized structure of neural processing aligns
+effectively with the network architecture of wireless epidermal systems,
+which supports localized adaptation in the absence of centralized
+coordination.
+
+\section{Bio-Inspired Adaptive SNN Fusion
+Framework}\label{bio-inspired-adaptive-snn-fusion-framework}
+
+The proposed framework creates a neuromorphic structure for dynamic
+sensor fusion in wireless epidermal IMU networks by merging biological
+principles with constraints of practical deployment. The system
+processes multi-modal inertial data through three coordinated stages:
+adaptive spike encoding, plasticity-driven fusion, and kinematic
+reconstruction. Every phase includes distinct processes to tackle the
+difficulties of epidermal sensing without compromising computational
+performance. Figure 1 displays the full structure and shows how
+conventional signal processing modules have been substituted with
+bio-inspired spiking components.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{figures/1.png}
+\caption{Architecture of SNN-Enhanced IMU in WESN}
+\end{figure}
+
+\subsection{Event-Based Spiking Encoder with Adaptive Thresholding
+Implementation}\label{event-based-spiking-encoder-with-adaptive-thresholding-implementation}
+
+The spiking encoder transforms raw IMU signals into temporally precise
+spike trains while suppressing measurement noise. We employ a modified
+leaky integrate-and-fire (LIF) model with dynamic threshold adaptation,
+where the spiking threshold \(V_{th}(t)\) evolves based on real-time
+noise estimates. The membrane potential \(V_m\) of each encoder neuron
+follows:
+
+\[
+\tau_m \frac{dV_m}{dt} = -V_m + \mathbf{w}_s \cdot \mathbf{s}(t) + \xi(t)
+\tag{3}
+\]
+
+Here, \(\tau_m\) represents the membrane time constant (20 ms for
+accelerometers, 50 ms for gyroscopes), \(\mathbf{w}_s\) denotes
+sensor-specific input weights (normalized by sensor noise
+characteristics), \(\mathbf{s}(t)\) contains the preprocessed IMU
+readings (gravity-compensated acceleration and bias-corrected angular
+velocity), and \(\xi(t)\) models environmental noise as a zero-mean
+Gaussian process with variance \(\sigma^2(t)\).
+
+The adaptive threshold mechanism adjusts \(V_{th}(t)\) according to
+movement complexity and noise levels:
+
+\[
+V_{th}(t) = V_{th0} + \alpha \int_0^t e^{-\beta (t-\tau)} \|\mathbf{s}(\tau)\|_2 \, d\tau
+\tag{4}
+\]
+
+where \(V_{th0}\) is the baseline threshold (0.8 for acceleration, 0.5
+for rotation), \(\alpha\) controls sensitivity to motion intensity (0.05
+for both modalities), and \(\beta\) determines the adaptation rate (0.1
+Hz). The \(L_2\)-norm \(\|\mathbf{s}(\tau)\|_2\) captures overall
+movement magnitude across sensor axes. This approach leads the encoder
+to raise spiking thresholds when motion intensity is high (thereby
+decreasing unnecessary spikes) while preserving responsiveness during
+delicate movements.
+
+For gyroscopic data, we introduce an additional angular acceleration
+term \(\dot{\omega}(t)\) to enhance responsiveness to rapid rotations:
+
+\[
+V_{th}^{gyro}(t) = V_{th}(t) + \gamma |\dot{\omega}(t)|
+\tag{5}
+\]
+
+where \(\gamma\) (0.02 s/rad) scales the angular acceleration
+contribution. The encoder emits a spike when \(V_m(t) \geq V_{th}(t)\),
+after which \(V_m\) resets to \(V_{reset} = -0.2V_{th0}\) and enters a 5
+ms refractory period.
+
+\subsection{Synaptic Plasticity - Driven Fusion Core
+Details}\label{synaptic-plasticity---driven-fusion-core-details}
+
+The fusion core applies dynamic weighting of IMU modalities by means of
+spike-timing-dependent plasticity (STDP), which permits continuous
+adjustment to movement patterns and sensor dependability. Each synaptic
+connection between encoder neurons and fusion neurons follows a
+memristive STDP rule where weight updates depend on precise spike timing
+correlations. The weight change \(\Delta w_{ij}\) between pre-synaptic
+neuron \(i\) and post-synaptic neuron \(j\) is governed by:
+
+\[
+\Delta w_{ij} = \eta \sum_{t_i, t_j} \left[ A_+ e^{(t_i - t_j)/\tau_+} \Theta(t_j - t_i) - A_- e^{(t_j - t_i)/\tau_-} \Theta(t_i - t_j) \right] \tag{6}  
+\]
+
+Here, \(\eta\) scales the learning rate (0.01 for accelerometer inputs,
+0.005 for gyroscopic inputs), \(A_+ = 0.2\) and \(A_- = 0.15\) determine
+the maximum potentiation and depression, \(\tau_+ = 20 \, \text{ms}\)
+and \(\tau_- = 30 \, \text{ms}\) define the temporal windows, and
+\(\Theta\) denotes the Heaviside step function. The exponential terms
+guarantee that causal spike pairs (t\_i \textless{} t\_j) reinforce the
+synapse, whereas anti-causal pairs (t\_i \textgreater{} t\_j) diminish
+it, reflecting biological learning mechanisms.
+
+The fusion neurons employ conductance-based synapses where the synaptic
+current \(I_{syn}\) integrates contributions from all connected
+encoders:
+
+\[
+I_{syn}(t) = \sum_{i} G_{ij}(t)(V_{rev} - V_m(t)) \tag{7}  
+\]
+
+with \(G_{ij}(t) = w_{ij}(t)G_{max}\) representing the time-varying
+synaptic conductance, \(G_{max} = 10 \, \mu\text{S}\) the maximum
+conductance, and \(V_{rev} = 0 \, \text{mV}\) the reversal potential.
+The weights \(w_{ij}\) are clipped to \([0, 1]\) to maintain stability,
+with initial values set to 0.5 for accelerometer inputs and 0.3 for
+gyroscopic inputs, reflecting their typical reliability in quasi-static
+conditions.
+
+To prevent uncontrolled weight drift, we introduce a homeostatic
+regularization term that scales weight updates by the post-synaptic
+firing rate \(r_j\):
+
+\[
+\Delta w_{ij} \leftarrow \Delta w_{ij} \cdot \left(1 - \frac{r_j}{r_{target}}\right) \tag{8}  
+\]
+
+where \(r_{target} = 15 \, \text{Hz}\) maintains balanced activity. This
+prevents highly active fusion neurons from overwhelming the network,
+thereby retaining responsiveness to sensor modalities that are less
+active yet still informative.
+
+The fusion core's output consists of spike trains from three populations
+of neurons, each specialized for estimating roll, pitch, and yaw angles.
+These populations receive inputs from all IMU axes but develop distinct
+weight patterns through STDP: roll estimation neurons preferentially
+strengthen connections from the \(y\)-axis accelerometer and \(x\)-axis
+gyroscope, while pitch estimators favor \(x\)-axis accelerometer and
+\(y\)-axis gyroscope inputs. This specialization emerges autonomously
+from the temporal correlations in natural movements, where specific
+sensor axes tend to lead others during particular rotations.
+
+\subsection{Flexible Neuromorphic Unit with Hybrid Electronics
+Setup}\label{flexible-neuromorphic-unit-with-hybrid-electronics-setup}
+
+To attain epidermal compatibility without compromising computational
+accuracy, we created a hybrid neuromorphic unit that merges silicon CMOS
+spiking neurons with synaptic arrays based on organic electrochemical
+transistors (OECTs). The CMOS component executes the LIF dynamics
+(Equation 3) with a switched-capacitor circuit functioning at 0.6 V
+supply voltage and requires 8.3 nJ per spike. The OECT array, fabricated
+on a polyimide substrate with PEDOT:PSS channels, provides
+reconfigurable synaptic connections where conductance \(G_{ij}\) follows
+the STDP update rule (Equation 6). The OECT conductance is modeled as:
+
+\[
+G_{\text{OECT}} = \mu C^* \frac{W}{L} (V_G - V_T) \tag{9}  
+\]
+
+where \(\mu = 2.1 \, \text{cm}^2/\text{Vs}\) is the charge carrier
+mobility, \(C^* = 1.8 \, \text{F/cm}^3\) the volumetric capacitance,
+\(W = 20 \, \mu\text{m}\) and \(L = 5 \, \mu\text{m}\) the channel
+dimensions, \(V_G\) the gate voltage, and \(V_T = -0.2 \, \text{V}\) the
+threshold voltage. The gate voltage \(V_G\) encodes the synaptic weight
+\(w_{ij}\) through a pulse-width modulated signal from the CMOS
+controller, with 200 mV increments corresponding to 0.1 weight steps.
+
+Electrical connections linking CMOS and OECT elements consist of
+stretchable gold-polyimide serpentine wires, which preserve conductivity
+under 30\% strain. Each trace has a resistance
+\(R_{trace} = 120 \, \Omega\) per mm length, with capacitive coupling
+\(C_{coupling} = 15 \, \text{fF}\) between adjacent lines. To minimize
+crosstalk, we employ time-division multiplexing where spike events are
+transmitted in 50 μs windows separated by 5 μs guard intervals.
+
+The memristive crossbar array for analog weight storage utilizes
+\(\text{Ag}/\text{SiOx}/\text{W}\) devices with 5 μm × 5 μm cells. Every
+device displays non-linear behavior in its conductance.
+
+\[
+G_{mem} = G_{min} + (G_{max} - G_{min}) \frac{1}{1 + e^{-\alpha(V_{set} - V_0)}} \tag{10}  
+\]
+
+where \(G_{min} = 0.1 \, \mu\text{S}\), \(G_{max} = 10 \, \mu\text{S}\),
+\(\alpha = 3 \, \text{V}^{-1}\), and \(V_0 = 0.7 \, \text{V}\). The set
+voltage \(V_{set}\) is applied during STDP updates (Equation 6) to
+modulate the conductance state. The crossbar attains 200 conductance
+states with 0.2\% deviation, adequate for preserving fusion weight
+accuracy.
+
+Power management is controlled by a versatile thin-film lithium-ion
+battery (2.4 mAh capacity) and an inductive charging coil functioning at
+13.56 MHz. The complete neuromorphic unit measures 8 mm × 8 mm × 0.3 mm
+and consumes 0.8 mW during continuous operation, with 72\% of power
+allocated to the OECT synaptic array and 28\% to CMOS spike generation.
+
+\subsection{Event - Driven Wireless Compression
+Mechanism}\label{event---driven-wireless-compression-mechanism}
+
+The event-driven compression module transforms the fused spike trains
+into delta-modulated bitstreams optimized for low-power wireless
+transmission. Each spike event is encoded as a tuple
+\((t_k, n_k, p_k)\), where \(t_k\) represents the spike timing relative
+to the last transmission (quantized to 1 ms resolution), \(n_k\)
+identifies the neuron index (6 bits for 64 fusion neurons), and \(p_k\)
+indicates polarity (1 bit for excitatory/inhibitory). The timing
+compression follows an adaptive exponential-Golomb coding scheme:
+
+\[
+L(t_k) = \lfloor \log_2(t_k/ \tau_{base} + 1) \rfloor + 1 \tag{11}  
+\]
+
+where \(\tau_{base}\) is dynamically adjusted between 5-50 ms based on
+the local spike rate \(\lambda(t) = \frac{N_{spikes}}{T_{window}}\),
+with \(T_{window} = 100\) ms. This variable-length encoding reduces the
+average timing overhead from 10 bits to 4.7 bits per spike during
+typical movements.
+
+The compression algorithm organizes spikes into 50 ms transmission
+frames and implements run-length encoding (RLE) for successive silent
+periods. Each frame header contains: 1. Base timestamp \(t_{frame}\) (16
+bits)\\
+2. Adaptive quantization step \(\Delta_q\) (4 bits)\\
+3. Neuron activity bitmap (8 bytes for 64 neurons)
+
+The payload contains compressed spike tuples, employing differential
+encoding for neuron indices ( Δ n\_k = n\_k - n\_\{k-1\} ). For
+movements producing sparse spikes (\textless10 spikes/frame), this
+scheme achieves 62\% bandwidth reduction compared to continuous IMU
+streaming at 100 Hz.
+
+The wireless interface operates with a dual-protocol system, employing
+Bluetooth Low Energy (BLE) for regular metadata transmission at
+500-millisecond intervals and a specialized 802.15.4 spike radio for
+handling event-driven data bursts. The spike radio operates with on-off
+keying at 250 kbps and has a 1.8 ms startup time, resulting in an energy
+efficiency of 83 μJ/bit. During high-activity periods (\textgreater30
+spikes/s), the system activates both radios for parallel transmission,
+while relying solely on BLE during quiescent intervals (\textless5
+spikes/s).
+
+\subsection{SNN Decoder for Kinematic Reconstruction
+Process}\label{snn-decoder-for-kinematic-reconstruction-process}
+
+The kinematic reconstruction process transforms the fused spike patterns
+into continuous orientation estimates through a three-layer spiking
+convolutional network. The input layer contains 64 leaky
+integrate-and-fire (LIF) neurons which receive spike inputs from the
+fusion core, with their membrane potentials following specific dynamics.
+
+\[
+\tau_d \frac{dV_d}{dt} = -V_d + I_{syn}(t) + \xi_d(t)
+\tag{12}
+\]
+
+where \(\tau_d = 25\) ms is the decoder time constant, \(I_{syn}(t)\)
+represents the synaptic current from Equation 7, and \(\xi_d(t)\) models
+reconstruction noise as a colored noise process with power spectral
+density \(S_{\xi}(f) = \frac{\sigma_d^2}{1 + (f/f_c)^2}\), where
+\(\sigma_d = 0.1\) and \(f_c = 5\) Hz. The decoder neurons employ a
+dynamic threshold \(V_{th}^d\) that adapts to local spike density:
+
+\[
+V_{th}^d(t) = V_{th0}^d \left(1 + \alpha_d \sum_{t_k} e^{-(t-t_k)/\tau_d}\right)
+\tag{13}
+\]
+
+with \(V_{th0}^d = 0.6\), \(\alpha_d = 0.05\), and \(\tau_d = 50\) ms.
+This adjustment avoids excessive prominence of high-frequency motion
+elements while preserving responsiveness to slight directional
+variations.
+
+The hidden layer performs temporal convolution on the input spikes using
+kernel functions \(K_m(t)\) that approximate biological receptive
+fields:
+
+\[
+K_m(t) = A_m t e^{-t/\tau_m} \sin(2\pi f_m t + \phi_m)
+\tag{14}
+\]
+
+where \(m\) indexes three motion axes (roll, pitch, yaw), with
+parameters \(\tau_m = [15, 20, 25]\) ms, \(f_m = [12, 10, 8]\) Hz, and
+\(\phi_m = [0, \pi/2, \pi]\) radians. The convolution output \(C_m(t)\)
+for each axis is given by:
+
+\[
+C_m(t) = \sum_{i=1}^{64} w_{mi} \int_0^t S_i(\tau) K_m(t-\tau) d\tau
+\tag{15}
+\]
+
+where \(S_i(\tau)\) represents the spike train from input neuron \(i\),
+and \(w_{mi}\) are fixed weights initialized to match typical
+sensor-axis contributions (e.g., \(y\)-axis accelerometer spikes
+weighted more heavily for roll estimation).
+
+The output layer converts the convolved signals into quaternion
+representations \(\mathbf{q}(t) = [q_0, q_1, q_2, q_3]\) through a
+spiking population code. Each quaternion component is encoded by 16
+neurons with cosine-tuned firing rates:
+
+\[
+r_j^k(t) = r_{max} \left( \frac{1 + \cos(\theta_j - \theta_k(t))}{2} \right)^\gamma
+\tag{16}
+\]
+
+where \(k\) indexes quaternion components, \(j\) denotes neuron index
+within each population, \(\theta_j = \frac{2\pi j}{16}\),
+\(\theta_k(t) = \arctan\left(\frac{C_{k2}(t)}{C_{k1}(t)}\right)\),
+\(\gamma = 2.5\) controls tuning sharpness, and \(r_{max} = 50\) Hz. The
+decoded quaternion is obtained by averaging the preferred angles
+\(\theta_j\) weighted by spike counts over 20 ms windows:
+
+\[
+q_k(t) = \frac{\sum_{j=1}^{16} n_j^k(t) \cos \theta_j}{\sum_{j=1}^{16} n_j^k(t)}, \quad k=1,2,3
+\tag{17}
+\]
+
+\[
+q_0(t) = \sqrt{1 - \sum_{k=1}^3 q_k^2(t)}
+\tag{18}
+\]
+
+where \(n_j^k(t)\) counts spikes from neuron \(j\) in component \(k\)'s
+population. This population coding method inherently resists noise while
+keeping orientation errors below 1° RMS during intricate motions. The
+full reconstruction procedure functions at a 20 Hz refresh rate while
+consuming 0.8 mW of power, attaining real-time operation appropriate for
+epidermal implementations.
+
+\section{Experiments}\label{experiments}
+
+\subsection{Experimental Setup and
+Protocol}\label{experimental-setup-and-protocol}
+
+To assess the proposed bio-inspired SNN framework, we performed
+experiments with a bespoke epidermal IMU network comprising six nodes
+positioned on the lower limbs (thigh, shank, and foot segments
+bilaterally). Each node integrated a 9-axis IMU (BMI160, Bosch
+Sensortec) with the hybrid neuromorphic processor described in Section
+4.3. The system was compared with three standard fusion techniques: a
+complementary filter \cite{ShiZhangLiYuanZhu2023}, an extended Kalman
+filter (EKF) \cite{MarinsYunBachmannothers2001}, and a method based on
+deep learning employing LSTM networks \cite{GuangGaoLiuLi2021}. All
+algorithms processed identical input data streams sampled at 100 Hz.
+
+The evaluation protocol included three movement conditions designed to
+test different aspects of fusion performance: 1. \textbf{Slow postural
+transitions}: 5-minute sequences of controlled ankle
+dorsiflexion/plantarflexion and knee flexion/extension (0.5-1 Hz) to
+assess static accuracy 2. \textbf{Dynamic gait cycles}: 10-meter walking
+trials at varying speeds (0.8-1.6 m/s) with sudden direction changes to
+evaluate dynamic response 3. \textbf{Complex activities}:
+Sports-specific movements (lateral shuffles, jump landings) to test
+robustness against rapid accelerations
+
+The true orientation was acquired by means of an optical motion capture
+system (Vicon MX) equipped with 12 cameras sampling at 200 Hz,
+synchronized with the IMU data through hardware triggers. Marker
+clusters were positioned next to each IMU node to permit immediate
+comparison. The system's adaptive capabilities were further tested by
+introducing controlled artifacts: temporary magnetic interference
+(neodymium magnet brought within 30 cm of sensors) and mechanical
+perturbations (gentle tapping on sensor housings during operation).
+
+\subsection{Performance Metrics}\label{performance-metrics}
+
+Fusion accuracy was measured by calculating four metrics across 1-second
+sliding windows.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Root Mean Square Error (RMSE)} of Euler angles relative to
+  optical ground truth: \[
+  RMSE = \sqrt{\frac{1}{N}\sum_{i=1}^N (\theta_i - \hat{\theta}_i)^2}
+  \tag{19}
+  \] where \(\theta_i\) and \(\hat{\theta}_i\) represent estimated and
+  reference angles, respectively.
+\item
+  \textbf{Dynamic Response Index (DRI)}: Correlation between estimated
+  and reference angular velocities during rapid movements: \[
+  DRI = \frac{\text{cov}(\omega, \hat{\omega})}{\sigma_\omega \sigma_{\hat{\omega}}}
+  \tag{20}
+  \]
+\item
+  \textbf{Energy Consumption} : Power consumption was recorded with a
+  high-accuracy source-measure instrument (Keysight B2901A) under
+  steady-state operating conditions.
+\item
+  \textbf{Adaptation Latency}: Time required to recover \textless5°
+  error after introducing magnetic interference, quantified as the first
+  passage time of the error signal.
+\end{enumerate}
+
+\subsection{Comparative Results}\label{comparative-results}
+
+Table 1 presents the overall performance across all movement conditions,
+which highlights the SNN framework's benefits in dynamic contexts
+alongside its comparable accuracy in static settings.
+
+\textbf{Table 1. Performance comparison across fusion methods}
+
+\begin{table}[h]
+\begin{tabular}{lllll}
+Method & RMSE (°) & DRI & Power (mW) & Latency (ms) \\
+Complementary Filter & 3.2 & 0.78 & 1.2 & 4200 \\
+EKF & 2.1 & 0.85 & 3.8 & 2100 \\
+LSTM & 1.9 & 0.88 & 5.1 & 1500 \\
+Proposed SNN & 2.3 & 0.92 & 0.8 & 800 \\
+\end{tabular}
+\end{table}
+
+The SNN achieved superior dynamic response (DRI = 0.92) by effectively
+reinforcing gyroscopic contributions during rapid movements while
+suppressing accelerometer drift. Figure 2 displays this adaptive
+weighting in a gait cycle, which indicates how the SNN raised gyroscope
+impact during swing phase while depending more on accelerometer
+information in stance.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{figures/2.png}
+\caption{Dynamic sensor weighting during gait cycle}
+\end{figure}
+
+Energy measurements showed the SNN's efficiency advantage, with power
+consumption 33\% lower than the complementary filter and 79\% lower than
+the EKF. This stems from the event-driven processing architecture, where
+only 12-18\% of timesteps required active computation during typical
+movements. The hybrid CMOS-organic implementation further reduced static
+power by 42\% compared to pure CMOS designs.
+
+\subsection{Robustness Evaluation}\label{robustness-evaluation}
+
+The proposed framework showed notable capability in managing transient
+artifacts. When subjected to magnetic interference, the SNN recovered
+accurate orientation estimates within 800 ms, 2.6× faster than the EKF
+and 5.3× faster than the complementary filter. This rapid adaptation
+resulted from the plasticity mechanisms automatically downweighting
+magnetometer inputs while reinforcing consistent gyroscope-accelerometer
+correlations.
+
+Mechanical disturbances caused short-term misalignment inaccuracies of
+8-12° across all approaches, yet the SNN resolved these inaccuracies
+40\% more rapidly than other methods by interpreting irregular spike
+patterns as noise instead of actual movement. Figure 3 shows the error
+trajectories during a representative perturbation event at t=2.1s.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{figures/3.png}
+\caption{Orientation error during mechanical perturbation}
+\end{figure}
+
+\subsection{Ablation Study}\label{ablation-study}
+
+We conducted systematic ablation tests to isolate contributions of key
+SNN components by creating three variants: 1. \textbf{Fixed-Threshold
+SNN}: Removed adaptive thresholding (Equation 4) 2. \textbf{Non-Plastic
+SNN}: Disabled STDP learning (Equation 6) 3. \textbf{Continuous SNN}:
+Replaced spiking neurons with rate-coded units
+
+Table 2 summarizes the performance degradation observed in each ablated
+condition relative to the full SNN.
+
+\textbf{Table 2. Ablation study results}
+
+\begin{table}[h]
+\begin{tabular}{llll}
+Variant & RMSE Increase & DRI Decrease & Power Increase \\
+Fixed-Threshold SNN & 38\% & 0.11 & 12\% \\
+Non-Plastic SNN & 52\% & 0.15 & 9\% \\
+Continuous SNN & 27\% & 0.07 & 63\% \\
+\end{tabular}
+\end{table}
+
+The findings establish that adaptive thresholding and synaptic
+plasticity both play a substantial role in dynamic performance, whereas
+event-based spiking yields considerable energy efficiency. The
+non-plastic version showed notably inferior results in complex tasks, as
+it did not adapt sensor weights correctly across various movement
+stages.
+
+\section{Discussion and Future
+Work}\label{discussion-and-future-work}
+
+\subsection{Limitations of the Bio-Inspired Adaptive SNN Fusion
+Framework}\label{limitations-of-the-bio-inspired-adaptive-snn-fusion-framework}
+
+Although the proposed framework shows notable benefits compared to
+traditional fusion approaches, a number of constraints merit
+examination. The existing implementation necessitates roughly 30 seconds
+of initial motion to achieve consistent synaptic weights, and
+orientation estimates may show greater variability (1.5-2× RMSE relative
+to stable operation) in this period. This adaptation period stems from
+the STDP learning rule's need to accumulate sufficient spike timing
+statistics before converging to optimal weights. Moreover, the system
+shows reduced accuracy during sustained high-frequency vibrations
+(\textgreater15 Hz), as the spiking encoder's refractory period (5 ms)
+limits its ability to resolve rapid successive events. These
+oscillations sometimes arise in athletic contexts with repeated
+collisions, such as bouncing a basketball or jogging on irregular
+surfaces.
+
+The hybrid CMOS-organic approach, though mechanically suited to
+epidermal substrates, produces minor fluctuations in synaptic
+conductance which may influence the uniformity of fusion. Evaluations of
+10 manufactured devices showed 8-12\% variability in weight updates from
+OECTs, chiefly caused by inconsistencies in the thickness of the
+PEDOT:PSS channel. Although the homeostatic regulation mechanism
+(Equation 8) compensates for these variations over time, they may
+temporarily degrade performance when adding new sensor nodes to an
+existing network.
+
+\subsection{Potential Application Scenarios Beyond Human Movement
+Analysis}\label{potential-application-scenarios-beyond-human-movement-analysis}
+
+The biologically inspired fusion concepts established in this study may
+apply to multiple fields where durable multi-sensor coordination is
+needed in changing environments. In soft robotics, the SNN structure
+could support independent adjustment to dynamic environmental
+interactions, where varied sensor types gain importance based on contact
+forces and material deformations \cite{ParkLeeKimSeoGoothers2020}. The
+plasticity mechanisms could make robotic skins autonomously prioritize
+tactile data in manipulation tasks while giving greater importance to
+proprioceptive signals during free motion.
+
+A further encouraging approach focuses on aquatic monitoring systems, in
+which the dependability of sensors varies due to water turbulence and
+biofouling. The adaptive weighting method could keep precise navigation
+in underwater vehicles by choosing dynamically among inertial, magnetic,
+and pressure sensors depending on their immediate signal-to-noise ratios
+\cite{SheikderZhangChenLiLiuZuoHeothers2025}. This capability would be
+particularly valuable in shallow coastal regions where magnetic
+disturbances are common.
+
+\subsection{Ethical Considerations in Epidermal Sensor Data
+Collection}\label{ethical-considerations-in-epidermal-sensor-data-collection}
+
+As wireless epidermal networks become more sophisticated, they raise
+important ethical questions regarding continuous biometric monitoring.
+The event-driven architecture of our system introduces distinct privacy
+concerns, as although it decreases total data transfer, the irregular
+spike patterns could contain sensitive motion identifiers (e.g., gait
+irregularities suggesting neurological disorders) \cite{PaulIrvine2014}.
+Upcoming versions ought to include anonymization methods on the device,
+which keep the usefulness of movement analysis intact but stop the
+connection to identities.
+
+The self-adjusting ability also requires thorough verification to
+guarantee impartiality of algorithms among varied user groups. Initial
+assessments showed minor discrepancies in fusion precision across age
+cohorts (2.1° RMSE for younger individuals compared to 2.8° for older
+subjects), probably attributable to variations in motion velocity and
+fluidity. These differences underscore the necessity for training
+protocols designed to address diversity in demographic-based natural
+movement variations \cite{Matthew2024}.
+
+\section{Conclusion}\label{conclusion}
+
+The bio-inspired spiking neural network architecture presented in this
+work establishes the viability of adaptive sensor fusion for wireless
+epidermal IMU networks and overcomes key drawbacks of traditional static
+fusion approaches. The system attains robust orientation estimation by
+employing event-based encoding, spike-timing-dependent plasticity, and
+hybrid neuromorphic hardware, operating within the strict power and form
+factor limitations of wearable applications. The framework's capacity to
+independently modify sensor weights according to movement dynamics and
+environmental conditions removes the necessity for manual calibration,
+which renders it especially appropriate for real-world deployment
+situations characterized by unpredictable variations in sensor
+reliability.
+
+Experimental results substantiate the architecture's benefits, which
+comprise outstanding dynamic response, swift adjustment to transient
+artifacts, and notable energy efficiency relative to conventional fusion
+methods. The hybrid CMOS-organic design achieves mechanical harmony with
+epidermal substrates without compromising computational accuracy,
+thereby connecting biological signal processing concepts with real-world
+wearable applications. The event-driven compression mechanism improves
+efficiency and lowers wireless bandwidth demands while preserving
+accuracy.
+
+Future research directions include extending the plasticity mechanisms
+to accommodate multi-node synchronization in full-body sensor networks
+and exploring federated learning approaches to improve generalization
+across diverse user populations. Moreover, the combination of the
+framework with novel flexible energy harvesting technologies could make
+fully autonomous operation possible, further expanding the prospects of
+epidermal sensor networks for prolonged movement observation. The
+proposed architecture not only advances the state-of-the-art in
+neuromorphic edge computing but also establishes a foundation for
+next-generation wearable systems capable of seamless adaptation to
+complex real-world conditions.
+
+
+
+
+\bibliography{refs}
+
+\end{document}
+
