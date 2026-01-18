@@ -1,0 +1,204 @@
+\begin{thebibliography}{999}
+
+\bibitem[Rishani et~al.(2018)Rishani, Elayan, Shubair, and
+  Kiourti]{RishaniElayanShubairKiourti2018}
+Rishani, N.; Elayan, H.; Shubair, R.; Kiourti, A.
+\newblock Wearable, epidermal, and implantable sensors for medical
+  applications.
+\newblock Technical report, arXiv preprint arXiv:1810.00321,  2018.
+
+\bibitem[Al-Amri et~al.(2018)Al-Amri, Nicholas, Button, Sparkes, Sheeran,
+  et~al.]{AlAmriNicholasButtonSparkesSheeranothers2018}
+Al-Amri, M.; Nicholas, K.; Button, K.; Sparkes, V.; Sheeran, L.;  et~al.
+\newblock Inertial measurement units for clinical movement analysis:
+  Reliability and concurrent validity.
+\newblock {\em Sensors} {\bf 2018}.
+
+\bibitem[Caron et~al.(2006)Caron, Duflos, Pomorski, and
+  Vanheeghe]{CaronDuflosPomorskiVanheeghe2006}
+Caron, F.; Duflos, E.; Pomorski, D.; Vanheeghe, P.
+\newblock GPS/IMU data fusion using multisensor Kalman filtering: introduction
+  of contextual aspects.
+\newblock {\em Information fusion} {\bf 2006}.
+
+\bibitem[McGinnis et~al.(2014)McGinnis, Cain, et~al.]{McGinnisCainothers2014}
+McGinnis, R.; Cain, S.;  et~al.
+\newblock Validation of complementary filter based IMU data fusion for tracking
+  torso angle and rifle orientation.
+\newblock {\em American Society of Mechanical Engineers International
+  Mechanical Engineering Congress and Exposition} {\bf 2014}.
+
+\bibitem[Panda et~al.(2017)Panda, Allred, Ramanathan,
+  et~al.]{PandaAllredRamanathanothers2017}
+Panda, P.; Allred, J.; Ramanathan, S.;  et~al.
+\newblock Asp: Learning to forget with adaptive synaptic plasticity in spiking
+  neural networks.
+\newblock {\em IEEE Journal On Emerging And Selected Topics In Circuits And
+  Systems} {\bf 2017}.
+
+\bibitem[Jang et~al.(2025)Jang, Lee, Beak, Biswas, Lee,
+  et~al.]{JangLeeBeakBiswasLeeothers2025}
+Jang, H.; Lee, J.; Beak, C.; Biswas, S.; Lee, S.;  et~al.
+\newblock Flexible neuromorphic electronics for wearable near‐sensor and
+  in‐sensor computing systems.
+\newblock {\em Advanced Materials} {\bf 2025}.
+
+\bibitem[Liu et~al.(2021)Liu, Xing, Tang, Ma, and Pan]{LiuXingTangMaPan2021}
+Liu, Q.; Xing, D.; Tang, H.; Ma, D.; Pan, G.
+\newblock Event-based Action Recognition Using Motion Information and Spiking
+  Neural Networks.
+\newblock {\em IJCAI} {\bf 2021}.
+
+\bibitem[Huang et~al.(2014)Huang, Liu, Cheng, Shin,
+  et~al.]{HuangLiuChengShinothers2014}
+Huang, X.; Liu, Y.; Cheng, H.; Shin, W.;  et~al.
+\newblock Materials and designs for wireless epidermal sensors of hydration and
+  strain.
+\newblock {\em Advanced Functional Materials} {\bf 2014}.
+
+\bibitem[Chung et~al.(2019)Chung, Kim, Lee, Lee, Xie, Ibler,
+  et~al.]{ChungKimLeeLeeXieIblerothers2019}
+Chung, H.; Kim, B.; Lee, J.; Lee, J.; Xie, Z.; Ibler, E.;  et~al.
+\newblock Binodal, wireless epidermal electronic systems with in-sensor
+  analytics for neonatal intensive care.
+\newblock {\em Science} {\bf 2019}.
+
+\bibitem[Amendola et~al.(2021)Amendola, Occhiuzzi, Miozzi, Nappi, Amato,
+  et~al.]{AmendolaOcchiuzziMiozziNappiAmatoothers2021}
+Amendola, S.; Occhiuzzi, C.; Miozzi, C.; Nappi, S.; Amato, F.;  et~al.
+\newblock UHF epidermal sensors: Technology and applications.
+\newblock {\em Wearable UHF Radio Frequency Identification Technologies} {\bf
+  2021}.
+
+\bibitem[Tilocca(2024)]{Tilocca2024}
+Tilocca, S.
+\newblock Exploring Brain-Inspired Multi-Sensor Data Fusion Models for
+  Improving Performances in Navigation and Tracking Applications.
+\newblock Technical report, webthesis.biblio.polito.it,  2024.
+
+\bibitem[Wang et~al.(2020)Wang, Alipouri, and Huang]{WangAlipouriHuang2020}
+Wang, J.; Alipouri, Y.; Huang, B.
+\newblock Dual neural extended Kalman filtering approach for multirate sensor
+  data fusion.
+\newblock {\em IEEE Transactions on Instrumentation and Measurement} {\bf
+  2020}.
+
+\bibitem[Yu et~al.(2022)Yu, Zahid, Taha, Taylor,
+  et~al.]{YuZahidTahaTaylorothers2022}
+Yu, Z.; Zahid, A.; Taha, A.; Taylor, W.;  et~al.
+\newblock An intelligent implementation of multi-sensing data fusion with
+  neuromorphic computing for human activity recognition.
+\newblock {\em IEEE Internet Of Things Journal} {\bf 2022}.
+
+\bibitem[Park et~al.(2020)Park, Lee, Kim, Seo, Go,
+  et~al.]{ParkLeeKimSeoGoothers2020}
+Park, H.; Lee, Y.; Kim, N.; Seo, D.; Go, G.;  et~al.
+\newblock Flexible neuromorphic electronics for computing, soft robotics, and
+  neuroprosthetics.
+\newblock {\em Advanced Materials} {\bf 2020}.
+
+\bibitem[Azghadi et~al.(2016)Azghadi, Linares-Barranco,
+  et~al.]{AzghadiLinaresBarrancoothers2016}
+Azghadi, M.; Linares-Barranco, B.;  et~al.
+\newblock A hybrid CMOS-memristor neuromorphic synapse.
+\newblock Technical report, ieeexplore.ieee.org,  2016.
+
+\bibitem[Jeong et~al.(2021)Jeong, Kwak, Sohn, Lee, Lee,
+  et~al.]{JeongKwakSohnLeeLeeothers2021}
+Jeong, H.; Kwak, S.; Sohn, S.; Lee, J.; Lee, Y.;  et~al.
+\newblock Miniaturized wireless, skin-integrated sensor networks for
+  quantifying full-body movement behaviors and vital signs in infants.
+\newblock In Proceedings of the Proceedings of the National Academy of
+  Sciences,  2021.
+
+\bibitem[Lee et~al.(2020)Lee, Yoon, Lee, Seong, Lee, Jang, Choi,
+  et~al.]{LeeYoonLeeSeongLeeJangChoiothers2020}
+Lee, S.; Yoon, J.; Lee, D.; Seong, D.; Lee, S.; Jang, M.; Choi, J.;  et~al.
+\newblock Wireless epidermal electromyogram sensing system.
+\newblock {\em Electronics} {\bf 2020}.
+
+\bibitem[Mitra et~al.(2012)Mitra, Emken, Lee, Li,
+  et~al.]{MitraEmkenLeeLiothers2012}
+Mitra, U.; Emken, B.; Lee, S.; Li, M.;  et~al.
+\newblock KNOWME: a case study in wireless body area sensor network design.
+\newblock In Proceedings of the Proceedings of the 2012 34th Annual
+  International Conference of the IEEE Engineering in Medicine and Biology
+  Society,  2012.
+
+\bibitem[Hajiaghajani et~al.(2023)Hajiaghajani, Rwei,
+  et~al.]{HajiaghajaniRweiothers2023}
+Hajiaghajani, A.; Rwei, P.;  et~al.
+\newblock Amphibious epidermal area networks for uninterrupted wireless data
+  and power transfer.
+\newblock {\em Nature Communications} {\bf 2023}.
+
+\bibitem[Zanoli et~al.(2023)Zanoli, Ponzina, Teijeiro,
+  et~al.]{ZanoliPonzinaTeijeiroothers2023}
+Zanoli, S.; Ponzina, F.; Teijeiro, T.;  et~al.
+\newblock An error-based approximation sensing circuit for event-triggered
+  low-power wearable sensors.
+\newblock {\em IEEE Journal on Emerging and Selected Topics in Circuits and
+  Systems} {\bf 2023}.
+
+\bibitem[Grüning and Bohte(2014)]{GrningBohte2014}
+Grüning, A.; Bohte, S.
+\newblock Spiking neural networks: Principles and challenges.
+\newblock {\em ESANN} {\bf 2014}.
+
+\bibitem[Caporale and Dan(2008)]{CaporaleDan2008}
+Caporale, N.; Dan, Y.
+\newblock Spike timing–dependent plasticity: a Hebbian learning rule.
+\newblock {\em Annu. Rev. Neurosci.} {\bf 2008}.
+
+\bibitem[Lee et~al.(2020)Lee, Han, Kim, Kim, and Lee]{LeeHanKimKimLee2020}
+Lee, J.; Han, S.; Kim, K.; Kim, Y.; Lee, S.
+\newblock Wireless epidermal six-axis inertial measurement units for real-time
+  joint angle estimation.
+\newblock {\em Applied Sciences} {\bf 2020}.
+
+\bibitem[Corrales et~al.(2008)Corrales, Candelas, and
+  Torres]{CorralesCandelasTorres2008}
+Corrales, J.; Candelas, F.; Torres, F.
+\newblock Hybrid tracking of human operators using IMU/UWB data fusion by a
+  Kalman filter.
+\newblock In Proceedings of the Proceedings of the 3rd ACM/IEEE International
+  Conference on Human - Robot Interaction,  2008.
+
+\bibitem[Shi et~al.(2023)Shi, Zhang, Li, Yuan, and Zhu]{ShiZhangLiYuanZhu2023}
+Shi, Y.; Zhang, Y.; Li, Z.; Yuan, S.; Zhu, S.
+\newblock IMU/UWB fusion method using a complementary filter and a Kalman
+  filter for hybrid upper limb motion estimation.
+\newblock {\em Sensors} {\bf 2023}.
+
+\bibitem[Marins et~al.(2001)Marins, Yun, Bachmann,
+  et~al.]{MarinsYunBachmannothers2001}
+Marins, J.; Yun, X.; Bachmann, E.;  et~al.
+\newblock An extended Kalman filter for quaternion-based orientation estimation
+  using MARG sensors.
+\newblock In Proceedings of the IEEE/RSJ International Conference on
+  Intelligent Robots and Systems,  2001.
+
+\bibitem[Guang et~al.(2021)Guang, Gao, Liu, and Li]{GuangGaoLiuLi2021}
+Guang, X.; Gao, Y.; Liu, P.; Li, G.
+\newblock IMU data and GPS position information direct fusion based on LSTM.
+\newblock {\em Sensors} {\bf 2021}.
+
+\bibitem[Sheikder et~al.(2025)Sheikder, Zhang, Chen, Li, Liu, Zuo, He,
+  et~al.]{SheikderZhangChenLiLiuZuoHeothers2025}
+Sheikder, C.; Zhang, W.; Chen, X.; Li, F.; Liu, Y.; Zuo, Z.; He, X.;  et~al.
+\newblock Marine-Inspired Multimodal Sensor Fusion and Neuromorphic Processing
+  for Autonomous Navigation in Unstructured Subaquatic Environments.
+\newblock {\em Sensors} {\bf 2025}.
+
+\bibitem[Paul and Irvine(2014)]{PaulIrvine2014}
+Paul, G.; Irvine, J.
+\newblock Privacy implications of wearable health devices.
+\newblock In Proceedings of the Proceedings of the 7th International Conference
+  on Pervasive Computing Technologies for Healthcare,  2014.
+
+\bibitem[Matthew(2024)]{Matthew2024}
+Matthew, B.
+\newblock Algorithmic Bias in Wearable Health Recommendations.
+\newblock Technical report, researchgate.net,  2024.
+
+\end{thebibliography}
